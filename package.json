@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/Anishpras/dsa-js",
     "directory": "/"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": {
     "url": "https://github.com/Anishpras/dsa-js/issues"
@@ -39,7 +42,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "dsa-js",
+  "name": "@anishpras/dsa",
   "author": "Anish Prashun",
   "module": "dist/algo-js.esm.js",
   "size-limit": [
